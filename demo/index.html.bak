@@ -41,7 +41,10 @@
 			<tr><td>Chinh Ngoc	</td><td rowspan="2">Chu Ngoc		</td><td rowspan ="2">Luu Bao Ngoc</td></tr>
 			<tr><td>Thuy Ngan	</td>
 		</table><p>
-		<iframe src="https://mope.io" width = "800" height = "400"> </iframe>
+		<details>
+			<summary>More info</summary>
+			<p>Join the darkside, you'll have cookies
+		</details>
 	</main>
 	<footer>
 		<p>Have a nice day!</p>
