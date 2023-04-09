@@ -10,16 +10,7 @@ body{
 	background-attachment: fixed;
 	background-color:#99FF99;
 }
-/*
-#logo{
-	margin: 0 auto;
-	width: 75vw;
-    position: absolute;
-	left: 10vw;
-	z-index: -5;
 
-}
-*/
 h1{
 	color:#990000;
 	display: inline-block;
@@ -167,7 +158,6 @@ p[class="shop_intro"]{
 div[class="shop_item"]{
 	display:inline-block;
 	width: 50%;
-	height:60vh;
 	margin-left:20%;
 	margin-bottom:3%;
 	border: 24px solid transparent;
@@ -280,7 +270,6 @@ header, footer{
 	div[class="shop_item"]{
 		display:inline-block;
 		width: 30%;
-		height:60vh;
 		margin-right:6%;
 		margin-left:6%;
 	}
@@ -339,7 +328,6 @@ header, footer{
 	div[class="shop_item"]{
 		display:inline-block;
 		width: 25%;
-		height:50vh;
 		margin-right:3%;
 		margin-left:0%;
 	}
@@ -349,7 +337,6 @@ header, footer{
 	div[class="shop_item"]{
 		display:inline-block;
 		width: 20%;
-		height:50vh;
 		margin-right:1%;
 		margin-left:0%;
 	}
