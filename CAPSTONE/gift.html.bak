@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Kisphophu Company</title>	
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/script.js"></script>
+		<meta charset = "UTF-8">
+	</head>
+	<body>
+		<header>
+			<h1>KISPHOPHU COMPANY</h1>
+			<nav class = "hor">
+				<a class ="hor_nav" href="home.html">Home</a>
+				<a class ="hor_nav" href="shop.html">Shop</a>
+				<a class ="hor_nav" href="fortune.html">Fortune Teller</a>
+				<a class ="hor_nav active" href="gift.html">Special Gifts</a>	
+			</nav> 
+			<button id = "more_nav" onclick="dropdown()"><img src="imgs/more.png" alt="more"></button>
+		</header>
+		<nav class = "ver">
+				<a class ="ver_nav" href="home.html">Home</a>
+				<a class ="ver_nav" href="shop.html">Shop</a>
+				<a class ="ver_nav" href="fortune.html">Fortune Teller</a>
+				<a class ="ver_nav special" href="gift.html">Special Gifts</a>	
+		</nav>
+		<main>	
+			<h2>KISPHOPHU SPECIAL GIFT</h2>
+			<p class="shop_intro">Please allow us, Kisphophu Company, to send thanks and best wishes to everyone who has visited our webpage today<br>
+			The King has prepared the SPECIAL GIFT for all of you. Please take them as our thanks ^_^!</p>
+			<a id = "gift" href=""><img src="imgs/specialGift.png" alt="gift"></a>
+			<p class="italic_txt">For the benefits of entire universe</p>			
+
+		</main>
+		<footer>
+			Kisphophu Company, Diamond Cluster, Galaxy 616, Sun, Earth, Kisphophu Kingdom, The Great Castle
+		</footer>
+	</body>
+</html>

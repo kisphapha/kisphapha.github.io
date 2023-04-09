@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Kisphophu Company</title>	
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/script.js"></script>
+		<meta charset = "UTF-8">
+	</head>
+	<body>
+		<header>
+			<h1>KISPHOPHU COMPANY</h1>
+			<nav class = "hor">
+				<a class ="hor_nav" href="home.html">Home</a>
+				<a class ="hor_nav" href="shop.html">Shop</a>
+				<a class ="hor_nav active" href="fortune.html">Fortune Teller</a>
+				<a class ="hor_nav special" href="gift.html">Special Gifts</a>	
+			</nav> 
+			<button id = "more_nav" onclick="dropdown()"><img src="imgs/more.png" alt="more"></button>
+		</header>
+		<nav class = "ver">
+				<a class ="ver_nav" href="home.html">Home</a>
+				<a class ="ver_nav" href="shop.html">Shop</a>
+				<a class ="ver_nav" href="fortune.html">Fortune Teller</a>
+				<a class ="ver_nav special" href="gift.html">Special Gifts</a>	
+		</nav>
+		<main>	
+			<h2>Enter your lucky number</h2>
+			<p id="intro">Select a lucky number, any positive integer you like. Then type in the box below. We'll predict
+			your future. Have fun!</p>
+			<form>
+			  <input type="number" id="lucky" name="lucky"><br><br>
+			</form>
+			<button id="fortune_ok" onclick="tellFortune()">OK</button>
+			<div id = "prediction">
+				Prediction!<p>What will happen to you...?
+			</div>
+		</main>
+		<footer>
+			Kisphophu Company, Diamond Cluster, Galaxy 616, Sun, Earth, Kisphophu Kingdom, The Great Castle
+		</footer>
+	</body>
+</html>
