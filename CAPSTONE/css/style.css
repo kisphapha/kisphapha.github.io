@@ -10,16 +10,7 @@ body{
 	background-attachment: fixed;
 	background-color:#99FF99;
 }
-/*
-#logo{
-	margin: 0 auto;
-	width: 75vw;
-    position: absolute;
-	left: 10vw;
-	z-index: -5;
 
-}
-*/
 h1{
 	color:#990000;
 	display: inline-block;
@@ -283,7 +274,7 @@ header, footer{
 	}
 }
 
-@media screen and (min-width:900px){
+@media screen and (min-width:1000px){
 	#more_nav{
 		display:none;
 	}
